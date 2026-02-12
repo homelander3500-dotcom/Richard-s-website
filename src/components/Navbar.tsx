@@ -89,7 +89,7 @@ export default function Navbar() {
                 to="/contact"
                 className="text-sm font-medium text-primary-foreground/70 hover:text-accent transition-colors py-2"
               >
-                Contact
+               Contact
               </Link>
             </div>
           </motion.div>
