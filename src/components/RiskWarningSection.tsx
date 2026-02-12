@@ -14,7 +14,7 @@ export default function RiskWarningSection() {
           <div className="flex items-center gap-3 mb-5">
             <AlertTriangle size={22} className="text-destructive" />
             <h3 className="text-lg font-bold text-foreground">
-              Trading Involves Significant Risk
+              Trading  Involves  Significant  Risk
             </h3>
           </div>
           <div className="space-y-4 text-foreground/80 text-sm md:text-base leading-relaxed">

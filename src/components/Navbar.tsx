@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const navLinks = [
 { label: "About", href: "#philosophy" },
@@ -31,7 +32,7 @@ export default function Navbar() {
       }>
 
       <div className="container-narrow flex items-center justify-between h-16">
-        <a href="#" className="text-lg font-bold tracking-tight text-primary-foreground">
+        <a href="/" className="text-lg font-bold tracking-tight text-primary-foreground">
           Future's  <span className="text-accent">Talk</span>
         </a>
 
@@ -49,6 +50,12 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+          <Link
+            to="/contact"
+            className="text-sm font-medium text-primary-foreground/70 hover:text-accent transition-colors"
+          >
+            Contact
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -70,15 +77,20 @@ export default function Navbar() {
           className="md:hidden bg-primary/95 backdrop-blur-md border-t border-primary-foreground/10">
 
             <div className="container-narrow py-4 flex flex-col gap-3">
-              {navLinks.map((link) =>
-            <button
-              key={link.href}
-              onClick={() => handleClick(link.href)}
-              className="text-sm font-medium text-primary-foreground/70 hover:text-accent transition-colors text-left py-2">
-
+              {navLinks.map((link) => (
+                <button
+                  key={link.href}
+                  onClick={() => handleClick(link.href)}
+                  className="text-sm font-medium text-primary-foreground/70 hover:text-accent transition-colors text-left py-2">
                   {link.label}
                 </button>
-            )}
+              ))}
+              <Link
+                to="/contact"
+                className="text-sm font-medium text-primary-foreground/70 hover:text-accent transition-colors py-2"
+              >
+                Contact
+              </Link>
             </div>
           </motion.div>
         }

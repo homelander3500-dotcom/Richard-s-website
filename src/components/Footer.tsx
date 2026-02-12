@@ -1,4 +1,5 @@
 import { Clock, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -37,6 +38,21 @@ export default function Footer() {
             <p className="text-primary-foreground/40 text-xs">
               Mon – Fri: 5:00 AM – 7:00 AM PST
             </p>
+          </div>
+
+          <div>
+            <div className="flex items-center gap-2 mb-2">
+              <Mail size={14} className="text-accent" />
+              <span className="text-primary-foreground/60 text-sm font-medium">
+                Get In Touch
+              </span>
+            </div>
+            <Link 
+              to="/contact"
+              className="text-primary-foreground/40 hover:text-accent text-xs transition-colors"
+            >
+              Contact us →
+            </Link>
           </div>
         </div>
 
