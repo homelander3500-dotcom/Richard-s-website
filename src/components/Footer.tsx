@@ -11,7 +11,7 @@ export default function Footer() {
             Futures and options trading involves substantial risk of loss and is
             not suitable for every investor. The valuation of futures and options
             may fluctuate, and as a result, you may lose more than your original
-            investment. All content presented on ZoomRoomRadio is for educational
+            investment. All content presented on Future's Talk is for educational
             purposes only and does not constitute financial advice. Past
             performance is not indicative of future results.
           </p>
@@ -38,18 +38,6 @@ export default function Footer() {
               Mon – Fri: 5:00 AM – 7:00 AM PST
             </p>
           </div>
-
-          
-
-
-
-
-
-
-
-
-
-
         </div>
 
         <div className="divider !bg-primary-foreground/10 mb-6" />
