@@ -49,20 +49,7 @@ export default function Contact() {
                 </a>
               </div>
 
-              {/* Address */}
-              <div className="border border-primary-foreground/10 rounded-lg p-8 hover:border-accent/30 transition-colors">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-accent/10 rounded-lg">
-                    <MapPin size={24} className="text-accent" />
-                  </div>
-                  <h3 className="text-xl font-bold text-foreground">Address</h3>
-                </div>
-                <div className="text-foreground/70 space-y-1">
-                  <p>10120 Flamingo Road</p>
-                  <p>Suite 4</p>
-                  <p>Las Vegas, NV 89147</p>
-                </div>
-              </div>
+          
 
               {/* Contact Person */}
               <div className="border border-primary-foreground/10 rounded-lg p-8 hover:border-accent/30 transition-colors">
