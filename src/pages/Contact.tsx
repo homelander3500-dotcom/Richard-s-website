@@ -60,7 +60,12 @@ export default function Contact() {
                   <h3 className="text-xl font-bold text-foreground">Contact</h3>
                 </div>
                 <p className="text-foreground/70">
-                  <span className="font-medium text-foreground">Richard V Rueb</span>
+                <span className="font-medium text-foreground">
+                         Richard V Rueb
+                <span className="ml-2 rounded-full bg-indigo-100 px-2 py-0.5 text-xs font-semibold text-indigo-700">
+                             Teams
+                </span>
+</span>
                 </p>
               </div>
             </motion.div>

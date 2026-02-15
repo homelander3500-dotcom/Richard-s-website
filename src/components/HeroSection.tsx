@@ -29,7 +29,7 @@ export default function HeroSection() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary-foreground leading-[1.1] mb-6">
 
-          Watch Me Trade Right{" "}
+          Watch Me Trade Live Right{" "}
           <span className="text-gradient-gold">Before Your Eyes</span>
         </motion.h1>
 
